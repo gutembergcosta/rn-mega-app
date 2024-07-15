@@ -4,10 +4,10 @@ import { View, Text, Button, StyleSheet } from 'react-native';
 const InfoScreen = ({ navigation }) => {
   return (
     <View style={styles.container}>
-      <Text>Details Screen</Text>
+      <Text>Info Screen</Text>
       <Button
-        title="Go to Home"
-        onPress={() => navigation.navigate('Home')}
+        title="Go to Info02"
+        onPress={() => navigation.navigate('Info02')}
       />
     </View>
   );
